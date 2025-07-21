@@ -1,12 +1,42 @@
-# React + Vite
+# 🍽️ Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Recipe Finder is a responsive and interactive web application that allows users to search for delicious recipes by name, filter by category or cuisine, and view detailed instructions and ingredients. It uses [TheMealDB API](https://www.themealdb.com/api.php) to fetch recipe data and is built with **React**, **Vite**, and **Tailwind CSS** for a modern UI experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search for recipes by keyword
+- 📂 Filter recipes by category (e.g. Dessert, Seafood)
+- 🌍 Filter recipes by area/cuisine (e.g. Indian, Mexican)
+- 📖 View full recipe details (ingredients, instructions, tags, and YouTube tutorial)
+- ❤️ Add or remove recipes from favorites (saved in localStorage)
+- ⚡ Fast and responsive UI built with Tailwind CSS
+- 🌐 API integration using TheMealDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite
+- **Styling**: Tailwind CSS v4
+- **Routing**: React Router DOM
+- **Data**: TheMealDB API
+- **State Management**: React hooks (`useState`, `useEffect`)
+- **Storage**: Browser localStorage (for favorites)
+
+---
+
+## 📸 Screenshots
+
+> Coming Soon
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/recipe-finder.git
+cd recipe-finder
